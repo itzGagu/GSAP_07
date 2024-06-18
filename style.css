@@ -1,0 +1,56 @@
+@import url(https://db.onlinewebfonts.com/c/82b778d1b069157bf6b2e32dc4e1e3f1?family=Neue+Machina);
+@font-face {
+  font-family: "Neue Machina";
+  src: url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.eot");
+  src: url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/82b778d1b069157bf6b2e32dc4e1e3f1.svg#Neue Machina")
+      format("svg");
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Neue Machina";
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #111;
+}
+#page1,
+#page2,
+#page3 {
+  height: 100vh;
+  width: 100%;
+  padding: 5vw 0;
+}
+#move {
+  background-color: rgb(217, 255, 6);
+  display: flex;
+  padding: 3vw 0;
+  overflow: hidden;
+}
+.marque h1 {
+  font-size: 70px;
+}
+.marque {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 4vw;
+  padding: 0 1.5vw;
+  transform: translate(-100%);
+}
+.marque img {
+  height: 80px;
+}
